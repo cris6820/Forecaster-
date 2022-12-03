@@ -1,0 +1,61 @@
+html,
+body {
+    font-family: 'Arial';
+    background: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: bolder;
+}
+
+.list-group-item {
+    padding: 1%;
+    margin: 0%;
+}
+
+#search-input {
+    background-image: black;
+    opacity: 95%;
+}
+
+.card,
+.searches,
+.card-body,
+.list-group-item {
+    background-color: white;
+    opacity: 100%;
+
+    color: black
+}
+
+.searches {
+    color: black;
+}
+
+#uv {
+    padding: 0.5%;
+}
+
+h5 {
+    font-size: 140%;
+    color:black;
+    font-weight: bold;
+}
+
+.card-title{
+    font-size: 28px;
+}
+
+@media (max-width: 576px) {
+
+    #nav,
+    .card-body,
+    .list-group {
+        text-align: center;
+    }
+
+    .lead {
+        font-size: 85% !important;
+    }
+}
